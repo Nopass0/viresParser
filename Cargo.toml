@@ -1,0 +1,18 @@
+[package]
+name    = "vires_worker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+dotenvy = "0.15"
+reqwest = { version = "0.12", features = ["cookies", "gzip", "rustls-tls", "json"] }
+reqwest_cookie_store = "0.7"
+scraper = "0.18"
+serde = { version = "1", features = ["derive"] }
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres", "chrono"] }
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+futures = "0.3"

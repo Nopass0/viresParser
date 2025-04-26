@@ -1,0 +1,15 @@
+[
+  {
+    "raw_cookie": "_identity-frontend=12375bb06e1a03cf6dc1d167690fc927ca825023fc86ce03e88d381fceb7ceb5a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22D3LLdxwdlHUWuRivNqSj8ltLzu700xrX%22%2C2592000%5D%22%3B%7D; HttpOnly; SameSite=Lax; Path=/; Max-Age=2592000; Expires=Mon, 26 May 2025 11:51:18 GMT",
+    "path": [
+      "/",
+      true
+    ],
+    "domain": {
+      "HostOnly": "trade.vires.pro"
+    },
+    "expires": {
+      "AtUtc": "2025-05-26T11:51:18Z"
+    }
+  }
+]
