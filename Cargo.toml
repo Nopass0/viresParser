@@ -8,6 +8,11 @@ anyhow = "1"
 dotenvy = "0.15"
 reqwest = { version = "0.12", features = ["cookies", "gzip", "rustls-tls", "json"] }
 reqwest_cookie_store = "0.7"
+
+# явное подключение, чтобы фича vendored «дошла» до openssl-sys
+native-tls = { version = "0.2", features = ["vendored"] }
+openssl    = { version = "0.10", features = ["vendored"] }
+
 scraper = "0.18"
 serde = { version = "1", features = ["derive"] }
 sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres", "chrono"] }
